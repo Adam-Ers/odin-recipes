@@ -1,6 +1,15 @@
+* {
+    margin: 8px;
+}
+
+strong,
+em {
+    margin: 0px;
+}
+
 body {
     background-color: #4b4555;
-    color: #d3c8e0;
+    color: #e5d1fd;
     font-family: Garamond, sans-serif;
 }
 
@@ -19,6 +28,36 @@ a:visited {
 }
 
 h1, h2 {
+    color: #d1b2f3;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+h2 {
     font-family: 'Times New Roman', Times, serif;
-    color: #bba7d1;
+}
+
+.card {
+    border: 5px solid #28252e;
+    background-color: #7b6f8f;
+    width: 75%;
+    margin: 32px auto;
+    padding: 16px;
+    box-shadow: 10px 10px 3px #0000002f;
+}
+
+.center {
+    text-align: center;
+}
+
+.center-block {
+    display: block;
+    margin: auto;
+}
+
+.bordered-image {
+    border: 2px solid #28252e;
+    box-shadow: 5px 5px 3px #0000002f;
 }
